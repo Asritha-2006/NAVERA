@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #0B1B3D;
+    --color-navy-dark: #061024;
+    --color-navy-light: #162B56;
+    --color-gold: #C6A867;
+    --color-gold-hover: #B89748;
+    --color-gold-light: #F4EEDC;
+    --color-canvas: #FAF9F5;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--color-canvas);
+    color: #1E293B;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar for sleek luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C6A867;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B89748;
+}
+
+/* Luxury card and subtle border utils */
+.luxury-border {
+  border: 1px solid rgba(198, 168, 103, 0.25);
+}
+.luxury-border-navy {
+  border: 1px solid rgba(11, 27, 61, 0.12);
+}
+.luxury-shadow {
+  box-shadow: 0 10px 30px -10px rgba(11, 27, 61, 0.08);
+}
+.luxury-gold-gradient {
+  background: linear-gradient(135deg, #DFCA95 0%, #C6A867 50%, #9B7E3E 100%);
+}
+.luxury-navy-gradient {
+  background: linear-gradient(135deg, #0B1B3D 0%, #061024 100%);
+}

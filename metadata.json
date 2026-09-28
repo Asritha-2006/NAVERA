@@ -1,0 +1,6 @@
+{
+  "name": "NAVÉRA Luxury Fashion",
+  "description": "NAVÉRA - Elegance in Every Thread. Modern premium clothing e-commerce storefront with bespoke navy blue and gold aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
