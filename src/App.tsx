@@ -11,6 +11,7 @@ import { CartDrawer } from './components/CartDrawer';
 import { SearchModal } from './components/SearchModal';
 import { QuickViewModal } from './components/QuickViewModal';
 import { Toast } from './components/Toast';
+import { Chatbot } from './components/Chatbot';
 
 // Views
 import { HomeView } from './views/HomeView';
@@ -162,6 +163,7 @@ const MainRouter: React.FC = () => {
       <SearchModal />
       <QuickViewModal />
       <Toast />
+      <Chatbot />
     </div>
   );
 };
